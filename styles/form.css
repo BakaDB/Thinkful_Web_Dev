@@ -1,0 +1,98 @@
+*{
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    padding: 80px;
+}
+
+nav{    
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topbar {
+    top: 0;
+    right: 0;
+    left: 0;
+    background: lightgrey;
+    position: fixed;
+    border: 1px solid grey
+}
+
+.actions {
+    position: absolute;
+    top: 22px;
+    right: 16px;
+}
+.actions a {
+    margin-left: 10px;
+    color: purple;
+}
+
+.searchlabel {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.searchfield, .searchbutton {
+  display: inline-block;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  
+}
+
+section input {
+  font-size: 16px; /* Must be set due to specificity weirdness of inputs */
+  font-weight: 500;
+  width: 400px;
+  height: 30px;
+  padding: 0 5px 0 8px;
+  margin-bottom: 10px;
+}
+
+.searchbutton {
+  width: 37px;
+  height: 30px;
+  padding: 2px 6px 3px 6px;
+  background-color: white;
+  vertical-align: bottom;
+}
+
+.display {
+    display: inline-block;
+    font-size: 0;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+.displaybutton {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.displaypages {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
+
+.list {
+    padding: 0;
+    list-style: none;
+}
+.listdate {
+    color: rgb(170, 170, 170);
+}
+.listtext {
+    font-weight: 600;
+}
+.listinfo{
+    color: rgb(170, 170, 170);
+}
